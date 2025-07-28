@@ -2,7 +2,7 @@
   "name": "user-api-tests",
   "version": "1.0.0",
   "scripts": {
-    "test": "jest",
+    "test": "jest --config jest.config.js",
     "test:report": "npm test && npm run allure:serve",
     "allure:generate": "npx allure generate allure-results -o allure-report --clean",
     "allure:serve": "npx allure serve allure-results",
